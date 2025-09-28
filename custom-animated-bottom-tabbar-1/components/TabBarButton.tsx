@@ -16,7 +16,7 @@ const TabBarButton = ({ onPress, onLongPress, isFocused, routeName, color, label
   const icon = {
     index: (props: any) => <MaterialCommunityIcons name='home-outline' size={24} color={'#222'} {...props} />,
     explore: (props: any) => <MaterialCommunityIcons name='compass-outline' size={24} color={'#222'} {...props} />,
-    profile: (props: any) => <MaterialCommunityIcons name='face-man-profile' size={24} color={'#222'} {...props} />
+    profile: (props: any) => <MaterialCommunityIcons name='face-man-profile' size={24} color={'#222'} {...props} />,
   }
 
   const scale = useSharedValue(0);

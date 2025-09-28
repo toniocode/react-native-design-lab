@@ -19,7 +19,7 @@ export function TabBar({ state, descriptors, navigation }: BottomTabBarProps) {
     const tabPositionX = useSharedValue(0);
     const animatedStyle = useAnimatedStyle(() => {
         return {
-            transform: [{ translateX: tabPositionX.value + 15 }]
+            transform: [{ translateX: tabPositionX.value }]
         }
     })
 
@@ -32,8 +32,9 @@ export function TabBar({ state, descriptors, navigation }: BottomTabBarProps) {
                         position: 'absolute',
                         backgroundColor: '#723FEB',
                         borderRadius: 30,
+                        marginHorizontal: 12,
                         height: dimensions.height - 15,
-                        width: buttonWidth - 30
+                        width: buttonWidth - 25
                     }
                 ]}
             >
