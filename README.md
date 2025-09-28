@@ -19,6 +19,6 @@ Clone the repo and run any design project:
 
 ```bash
 git clone https://github.com/toniocode/react-native-design-lab.git
-cd react-native-design-lab
+cd [project-name]
 npm install
 npx expo start
